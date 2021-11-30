@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,200;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  font-family: "Nunito", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  margin: 0 10px;
+  font-family: "Cairo", sans-serif;
+}
+#logo img {
+  margin-right: 8px;
+  height: 34px;
+  filter: invert(1);
+}
+#navbar {
+  background-color: #4081ac;
+  padding: 1rem 0;
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+}
+#navbar ul li {
+  margin-left: 1.3rem;
+}
+#navbar ul li a {
+  color: white;
+  font-family: "Cairo", sans-serif;
+}
+#navbar ul li a:hover {
+  color: black;
+}
+
+.IntroSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 18rem;
+  color: white;
+  text-transform: capitalize;
+  background: url("/static/bg2.jpg") center center no-repeat;
+  background-size: cover;
+}
+.IntroSection div:nth-of-type(1) {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.IntroSection div:nth-of-type(2) {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.pictureSection div:nth-of-type(1) {
+  font-size: 2rem;
+}
+.pictureSection div:nth-of-type(2) {
+  font-size: 1.5rem;
+}
+
+.sponserSection {
+  text-align: center;
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 25rem;
+  background-color: yellow;
+  font-weight: bolder;
+}
+.missionSection {
+  text-align: center;
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 18rem;
+  font-weight: bolder;
+}
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 20%;
+  height: 197px;
+  margin: 22px 17px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+.card img {
+  height: 59px;
+}
+.content {
+  display: flex;
+  font-size: 9px;
+  font-weight: 500;
+  height: 87%;
+  align-items: center;
+}
+.footer {
+  width: 100%;
+  height: 25rem;
+  background-color: green;
+}

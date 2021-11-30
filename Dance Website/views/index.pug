@@ -1,0 +1,44 @@
+doctype html
+html
+  head
+    title Mahesh dance academy
+    style
+      include ../static/style.css
+      
+  body
+    nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/img/logo.png", alt="not loaded")
+                | MDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section.IntroSection 
+        //- img(src="/static/bg.jpg", alt="not loaded")
+        div welcome to mahesh dance acadmey 
+        div eat dance sleep then repeat 
+
+    section.missionSection 
+      h2 Our mission
+      div.card
+        p Dance Perfection
+        div.content
+          img(src="/static/img/d1.png", alt="")
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam unde repellat laudantium tenetur dolore.
+      div.card
+        p Dance the way you like 
+      div.card
+        p Expert Teaching
+
+    section.sponserSection 
+        div Our Sposers
+
+    footer.footer 
+        | footer area
+    
+    script
+      include ../static/index.js
