@@ -22,6 +22,7 @@ a {
   font-size: 15px;
   margin: 0 10px;
   font-family: "Cairo", sans-serif;
+  cursor: pointer;
 }
 #logo img {
   margin-right: 8px;
@@ -75,14 +76,6 @@ a {
   font-size: 1.5rem;
 }
 
-.sponserSection {
-  text-align: center;
-  margin-top: 1.5rem;
-  width: 100%;
-  height: 25rem;
-  background-color: yellow;
-  font-weight: bolder;
-}
 .missionSection {
   text-align: center;
   margin-top: 1.5rem;
@@ -90,14 +83,20 @@ a {
   height: 18rem;
   font-weight: bolder;
 }
+.missionBox{
+  display: flex;
+  justify-content: center;
+}
+.missionSection h2{
+  font-size: 35px;
+}
 .card {
   border: 2px solid black;
   border-radius: 10px;
   width: 20%;
-  height: 197px;
+  height: 146px;
   margin: 22px 17px;
   padding: 10px 20px;
-  display: inline-block;
 }
 .card img {
   height: 59px;
@@ -109,8 +108,43 @@ a {
   height: 87%;
   align-items: center;
 }
+
+/* sponsersection  */
+
+.sponserSection {
+  text-align: center;
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 243px;
+  background-color: #94cfe1;
+  font-weight: bolder;
+}
+.sponserSection .sponHead{
+  font-size: 35px;
+  color: white;
+}
+.sponserbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  
+
+}
+.sponserbox img{
+  height: 100px;
+  margin-right: 33px;
+  margin-top: 23px;
+}
 .footer {
   width: 100%;
-  height: 25rem;
-  background-color: green;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.footer p{
+  font-family: "Cairo", sans-serif;
 }
