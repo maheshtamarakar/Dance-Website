@@ -1,0 +1,31 @@
+h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+.myForm{
+    width: 41%;
+    margin: 58px auto;
+}
+input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 4px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid #94cfe1;
+    font-size: 19px;
+}
+
+.btn{
+    text-align: center;
+    padding: 4px 20px;
+    font-size: 19px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 9px;
+    outline: none;
+    background-color: #4081ac;
+    color: white;
+    border: 2px solid #94cfe1;
+}

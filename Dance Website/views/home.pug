@@ -1,0 +1,41 @@
+extends base.pug
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section.IntroSection 
+        //- img(src="/static/bg.jpg", alt="not loaded")
+        div welcome to mahesh dance acadmey 
+        div eat dance sleep then repeat 
+
+    section.missionSection 
+      h2 Our mission
+      div.missionBox
+
+        div.card
+          p Dance Perfection
+          div.content
+            img(src="/static/img/d1.png", alt="")
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam unde repellat laudantium tenetur dolore.
+        div.card
+          p Dance the way you like 
+          div.content
+            img(src="/static/img/d2.png", alt="")
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam unde repellat laudantium tenetur dolore.
+        div.card
+          p Expert Teaching
+          div.content
+            img(src="/static/img/d3.png", alt="")
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam unde repellat laudantium tenetur dolore.
+
+      section.sponserSection 
+          div.sponHead Our Sposers
+          div.sponserbox
+            img(src="/static/img/logo1.png", alt="")
+            img(src="/static/img/logo2.png", alt="")
+            img(src="/static/img/logo3.png", alt="")
+            img(src="/static/img/logo4.png", alt="")
+        
+    
